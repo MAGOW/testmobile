@@ -27,7 +27,26 @@ html{
     text-align: center;
 }
 
+.margin_auto{
+    margin:0 auto;
+    width:95%;
+}
 
+.gotham{
+    font-family:"Gotham";
+}
+
+.float_l{
+    float:left;
+}
+
+.float_r{
+    float:right;
+}
+
+.float_l,.float_r{
+    margin-bottom:36px;
+}
 /*header*/
 
 .header_logo{
@@ -48,17 +67,6 @@ html{
     width:370px;
     display:block;
     margin:13px auto;
-}
-
-@media screen and (device-aspect-ratio: 40/71) {
-    .header_asseen_img{
-        width:95%;
-    }
-}
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
-    .header_asseen_img{
-        width:95%;
-    }
 }
 
 .main{
@@ -97,6 +105,7 @@ html{
     margin:15px auto;
     vertical-align: center;
     padding-top: 9px;
+    
 }
 
 /*out brain*/
@@ -109,4 +118,131 @@ html{
     font-size: 24px;
     font-weight: 300;
     line-height: 24px;
+    display: block;
+}
+
+.main_ob_list{
+    width:95%;
+    margin:10px auto;
+    background-color:gainsboro;
+    padding-top:1px;
+    padding-bottom:1px;
+}
+
+.main_ob_list li{
+    margin:25px;
+    color: #333333;
+    font-family: Gotham;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.main_renewal{
+    width:95%;
+    margin:32px auto;
+}
+
+.main_renewal_header{
+    display:block;
+    height: 96px;
+    width: 370px;
+    color: #3A5EAC;
+    font-size: 28px;
+    line-height: 32px;
+    font-family: "Gotham Bold";
+}
+
+.bottom_margin{
+    margin-bottom:30px;
+}
+
+.main_renewal_body{
+   color: #333333;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom:82px;
+    height: 590px
+}
+
+.skin_elements{
+    width:170px;
+}
+
+.element_image{
+    width:139px;
+    height:140px;
+    display:block;
+    margin-bottom:19px;
+}
+
+/*footer*/
+.footer{
+    width:100%;
+    background-color: #3962A2;
+    color:#FFFFFF;
+    font-size: 14px;
+    line-height: 18px;   
+}
+
+.contact_top{
+    padding-top: 26px;
+}
+
+.contact_bottom{
+    padding-bottom:22px;
+}
+
+.contact_img{
+    width:13px;
+} 
+
+.footer_address{
+    margin-bottom:18px;
+}
+
+.footer_copy{
+    margin-top:6px;
+    padding-bottom:31px;
+    font-size: 9px;
+}
+
+.footer_link{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+/*iphone 5/se*/
+@media screen and (device-aspect-ratio: 40/71) {
+    body{
+        width:379px;
+    }
+    .header_asseen_img{
+        width:95%;
+    }
+    .skin_elements{
+        width:140px;
+    }
+
+    .element_image{
+        width:100px;
+        height:100px;
+        display:block;
+        margin-bottom:19px;
+    }
+}
+
+/*galaxy s5*/
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+    
+    body{
+        width:379px;
+    }.header_asseen_img{
+        width:95%;
+    }
+}
+/*iphone 6*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+    body{
+        width:379px;
+    }
 }

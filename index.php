@@ -121,11 +121,53 @@ if ($tablet_browser > 0) {
             <!-- End Next button-->
             <!--   Out Brain  -->
             <div>
-                <h2 class="main_ob_header">IN THIS VIDEO</h2>
+                <h2 class="main_ob_header text_center">IN THIS VIDEO</h2>
+                <div class="main_ob_list">
+                    <ul>
+                        <li>How to Reduce the Appearance of Wrinkles and Saggy Skin Without Seeing a Doctor</li>
+                        <li>Answer to "What Is Causing My Skin To Age Quickly?"</li>
+                        <li>Breakthrough Study on Exceptional Skin Agers</li>
+                        <li>How To Become an Exceptional Skin Ager</li>
+                    </ul>
+                </div>
             </div>
             <!--   End Out Brain  -->
-<!--   End Main    -->
+            <div class="main_renewal margin_auto">
+                <h2 class="text_center main_renewal_header">Beverly Hills MD Advanced Dermal Renewal</h2>
+            </div>
+            <div class="margin_auto gotham main_renewal_body">
+                <p class="bottom_margin"><strong><i>Natural Skin Formula</i></strong></p>
+                <p class="bottom_margin">This revolutionary formula combines six skin nourishing elements to rejuvenate skin from the inside out.</p>
+                <div class="skin_elements float_l">
+                    <img src="images/img%201@3x.png" class="element_image margin_auto">
+                    <p class="text_center">Targets internal problems that cause visible aging</p> 
+                </div>
+                <div class="skin_elements float_r">
+                    <img src="images/img%202@3x.png" class="element_image margin_auto">
+                    <p class="text_center">Reduces the appearance of sagging or drooping</p> 
+                </div>
+                <div class="skin_elements float_l">
+                    <img src="images/img%203@3x.png" class="element_image margin_auto">
+                    <p class="text_center">Diminishes the appearance of wrinkles and dullness</p> 
+                </div>
+                <div class="skin_elements float_r">
+                    <img src="images/img%204@3x.png" class="element_image margin_auto">
+                    <p class="text_center">Protects and enhances skin elasticity</p> 
+                </div>
+            </div>
         </div>
+        <!--   End Main    -->
+        <!--   Footer  -->
+        <div class="footer gotham text_center">
+            <p class="contact_top"><img src="images/phone@3x.png" class="contact_img"> 1-877-828-5528</p>
+            <p class="contact_bottom"><a href="#" class=footer_link><img src="images/envelop@3x.png" class="contact_img"> Click Here to Email Us</a></p>
+            <p>Beverly Hills MD</p>
+            <p>8383 Wilshire Blvd #800</p>
+            <p class="footer_address">Beverly Hills, CA 90211 </p>
+            <p class=>The information presented on this website is not intended as specific medical advice and is not a substitute for professional treatment or diagnosis. These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</p>
+            <p class="footer_copy">&copy; Beverly Hills MD <?php echo date("Y"); ?>. "Beverly Hills MD" is a registered trademark of Beverly Hills MD, LLC. All Rights Reserved. | <a href="https://beverlyhillsmd.com/privacy-policy/" class="footer_link">PRIVACY POLICY</a> | <a href="https://beverlyhillsmd.com/terms-and-condition" class="footer_link">TERMS</a></p>
+        </div>
+        <!--   End Footer   -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         	<script>
 		$(document).ready(function() {
