@@ -3,11 +3,9 @@
     padding: 0;
 }
 
-/*
 html{
     width:100%;
 }
-*/
 
 /*fonts*/
 @font-face{
@@ -211,6 +209,10 @@ html{
     text-decoration: none;
 }
 
+body{
+    width:100%
+}
+
 /*iphone 5/se*/
 @media screen and (device-aspect-ratio: 40/71) {
     body{
@@ -241,8 +243,25 @@ html{
     }
 }
 /*iphone 6*/
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+@media only screen and (max-device-width: 667px) 
+    and (-webkit-device-pixel-ratio: 2) {
     body{
         width:379px;
     }
+}
+
+/*iphonex*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+    and (orientation : portrait) { body{width:380px;} }
+/*iphone 6+*/
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+      body{width:100%;}
+
 }
