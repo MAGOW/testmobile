@@ -68,7 +68,8 @@ if ($tablet_browser > 0) {
 		.oo-player-container .oo-start-screen .oo-start-screen-linear-gradient{background: transparent !important;}
 		.oo-player-container .oo-icon-play-slick{display: none;}
 		.video-views {font-size: 15px; line-height: 23px; font-weight: 600; color: #bbb; font-family: "quicksand"}
-            .video-div{position:relative; margin-top:15px;}
+        .video-div{position:relative; margin-top:15px;}
+        .oo-state-screen-info { display: none; }
         </style>
         
         <title>Beverly Hills MD</title>
@@ -101,17 +102,17 @@ if ($tablet_browser > 0) {
         </style>
         <script>
          var playerParam = {
-          pcode: 'BxeWgyOi3dUkDH6JnT5bJlHAGhsr',
+          pcode: 'AzY2kyOoR4h6urJ83C-Otm97ooqx',
           autoplay: false ,
           debug:false,
-          playerBrandingId: 'c4bff7c8d43f462b8a145bf1729bcea5',
+          playerBrandingId: '3416780e84604fe9a32a8e6b582ff5b1',
           skin: {
            config: 'ooyala.json'
          }
        };
        OO.ready(function() {
 								// change the second parameter (embed code) to change the video 
-								window.pp = OO.Player.create('LimelightEmbeddedPlayerFlash', 'YxNHVjaDE6xmJBDqI2dd9SPCtT8rVGOH', playerParam);});
+								window.pp = OO.Player.create('LimelightEmbeddedPlayerFlash', 'NsbnVxZTE6nhmPwNK0pcMm2iWkCJQ2iv', playerParam);});
               </script>
             </div>
             <!--    End OOYALA  -->
@@ -177,7 +178,7 @@ if ($tablet_browser > 0) {
         }
 
         function VidOn() {
-            $('#play-me, #vid-button').css('display', 'none');
+            $('#play-me').css('display', 'none');
             window.pp.play();
         }
 
